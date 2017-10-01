@@ -1,0 +1,117 @@
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+
+.navbar-inverse {
+    background-color: #18BC9C;
+    border-color: #0CB191;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #FFF200;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+section {
+    padding: 100px 0px;
+}
+header {
+    text-align: center;
+    color: #FFF;
+    background: #18BC9C none repeat scroll 0% 0%;
+	
+}
+header img {
+    display: block;
+    margin: 0px auto 20px;
+}
+header  {
+    padding-top: 80px;
+    padding-bottom: 50px;
+	
+   
+    font-family: "Ruda",sans-serif;
+    font-size:40px;
+
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+
+
+body {
+    color: #797979;
+    font-family: "Ruda",sans-serif;
+    font-size: 13px;
+}
+.product-panel-2 {
+    background: #DADAD2 none repeat scroll 0% 0%;
+    text-align: center;
+}
+.pn {
+    height: 390px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pn:hover {
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+	
+}
+.product-panel-2 .badge {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+.badge-hot {
+    background: #ED5565 none repeat scroll 0% 0%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.mt {
+    margin-top: 25px;
+}
+
+.btn-theme04 {
+    color: #FFF;
+    background-color: #ED5565;
+    border-color: #DA4453;
+	padding-bottom :5px;
+}
+
+.btn-theme04:hover,
+.btn-theme04:focus,
+.btn-theme04:active,
+.btn-theme04.active{
+  color: #fff;
+  background-color: #da4453;
+  border-color: #da4453;
+}
+
+.btn-theme01 {
+    color: #FFF;
+    background-color: #ED5565;
+    border-color: #DA4453;
+}
+
+.btn-theme01:hover,
+.btn-theme01:focus,
+.btn-theme01:active,
+.btn-theme01.active{
+  color: #fff;
+  background-color: #da4453;
+  border-color: #da4453;
+}
+footer{padding-bottom:20px;
+border-top:2px solid;
+background:#18BC9C;
+color:white;}
